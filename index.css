@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "footer footer";
+}
+header{
+    background-color: antiquewhite;
+    grid-area: header;
+}
+main{
+    background-color: aquamarine;
+    grid-area: main;
+}
+footer{
+    background-color: blueviolet;
+    grid-area: footer;
+}
